@@ -21,7 +21,7 @@
             </table>
             <div>
                 <p><span class="fw-bolder">Category:</span> {{ entrie.Category }}</p>
-                <a :href="entrie.Link" class="fw-semibold">Api Link</a>
+                <a :href="entrie.Link" target="_blank" class="fw-semibold">Api Link</a>
             </div>
         </div>
     </div>
